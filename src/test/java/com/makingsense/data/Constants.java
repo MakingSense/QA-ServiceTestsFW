@@ -3,7 +3,7 @@ package com.makingsense.data;
 public  class Constants {
 	
 	// BaseHost 
-	public static String BASE_HOST = "https://jsonplaceholder.typicode.com";
+	public static String BASE_HOST = "http://jsonplaceholder.typicode.com";
 
 	// APIs
 	public static String LOGIN_API = "/login";

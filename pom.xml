@@ -33,7 +33,7 @@
 	    <groupId>io.rest-assured</groupId>
 	    <artifactId>rest-assured</artifactId>
 	    <version>3.0.0</version>
-	    <scope>test</scope>
+	    <!-- <scope>test</scope> https://github.com/rest-assured/rest-assured/issues/891#issuecomment-378862865 -->
 	</dependency>	
     
   </dependencies>
