@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6358" started-at="2019-02-21T14:09:45Z" finished-at="2019-02-21T14:09:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6358" started-at="2019-02-21T14:09:45Z" finished-at="2019-02-21T14:09:52Z">
+      <class name="com.makingsense.test.APISuiteTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.makingsense.test.APISuiteTest@224edc67]" name="setup" is-config="true" duration-ms="437" started-at="2019-02-21T14:09:45Z" finished-at="2019-02-21T14:09:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getAllsPostsTest()[pri:0, instance:com.makingsense.test.APISuiteTest@224edc67]" name="getAllsPostsTest" duration-ms="2244" started-at="2019-02-21T14:09:46Z" finished-at="2019-02-21T14:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllsPostsTest -->
+        <test-method status="PASS" signature="getOnePostTest()[pri:0, instance:com.makingsense.test.APISuiteTest@224edc67]" name="getOnePostTest" duration-ms="1560" started-at="2019-02-21T14:09:48Z" finished-at="2019-02-21T14:09:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOnePostTest -->
+        <test-method status="PASS" signature="verifyAllPostsAPIBodyTest()[pri:0, instance:com.makingsense.test.APISuiteTest@224edc67]" name="verifyAllPostsAPIBodyTest" duration-ms="465" started-at="2019-02-21T14:09:49Z" finished-at="2019-02-21T14:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllPostsAPIBodyTest -->
+        <test-method status="PASS" signature="verifyEmailForACommentTest()[pri:0, instance:com.makingsense.test.APISuiteTest@224edc67]" name="verifyEmailForACommentTest" duration-ms="647" started-at="2019-02-21T14:09:50Z" finished-at="2019-02-21T14:09:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailForACommentTest -->
+        <test-method status="PASS" signature="verifyPostsAPIStatusCodeTest()[pri:0, instance:com.makingsense.test.APISuiteTest@224edc67]" name="verifyPostsAPIStatusCodeTest" duration-ms="481" started-at="2019-02-21T14:09:51Z" finished-at="2019-02-21T14:09:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPostsAPIStatusCodeTest -->
+        <test-method status="PASS" signature="verifySpecificPostIsPresentTest()[pri:0, instance:com.makingsense.test.APISuiteTest@224edc67]" name="verifySpecificPostIsPresentTest" duration-ms="495" started-at="2019-02-21T14:09:51Z" finished-at="2019-02-21T14:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySpecificPostIsPresentTest -->
+      </class> <!-- com.makingsense.test.APISuiteTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
