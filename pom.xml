@@ -34,7 +34,23 @@
 	    <artifactId>rest-assured</artifactId>
 	    <version>3.0.0</version>
 	    <!-- <scope>test</scope> https://github.com/rest-assured/rest-assured/issues/891#issuecomment-378862865 -->
-	</dependency>	
-    
+	</dependency>
+    <!-- Had top add this dep to make the project work in intellij (check with fer) -->
+    <dependency>
+          <groupId>javax.xml.bind</groupId>
+          <artifactId>jaxb-api</artifactId>
+          <version>2.3.0</version>
+    </dependency>
+      <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+      <dependency>
+          <groupId>com.google.code.gson</groupId>
+          <artifactId>gson</artifactId>
+      </dependency>
+      <dependency>
+          <groupId>com.google.code.gson</groupId>
+          <artifactId>gson</artifactId>
+          <version>2.3.1</version>
+          <scope>test</scope>
+      </dependency>
   </dependencies>
 </project>
